@@ -54,8 +54,6 @@ A simple Flask app with a styled login form — animated gradient background, gl
    python app.py
    ```
 
-5. Open your browser at [http://127.0.0.1:5000](http://127.0.0.1:5000)
-
 ## How it works
 
 `app.py` currently hardcodes the credentials (`Admin` / `1234`) and passes a `message` string to `login.html` indicating whether the login was successful. The template checks for the word "successful" in that message to decide whether to show a green success banner or a red error banner.
